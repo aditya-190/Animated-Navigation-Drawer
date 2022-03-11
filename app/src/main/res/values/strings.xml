@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">SlidingRootSample</string>
-    <string name="account_balance">Account Balance</string>
-    <string name="balance_currency">$</string>
-    <string name="balance_amount">524.99</string>
+    <string name="app_name">Nav-Drawer Sample</string>
+    <string name="screen_1">Screen - 1\nSwipe Right to Left\nTo See Navigation Drawer</string>
+    <string name="screen_2">Screen - 2</string>
 </resources>

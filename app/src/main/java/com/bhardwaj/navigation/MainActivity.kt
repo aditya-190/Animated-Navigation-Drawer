@@ -9,10 +9,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         SlidingRootNavBuilder(this)
-            .withMenuOpened(true)
-            .withContentClickableWhenMenuOpened(false)
-            .withSavedState(savedInstanceState)
-            .withMenuLayout(R.layout.menu_left_drawer)
+            .withGravity(SlideGravity.RIGHT)
+            .withMenuLayout(R.layout.navigation_drawer)
             .inject()
     }
 }
