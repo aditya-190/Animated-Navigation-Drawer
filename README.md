@@ -51,7 +51,7 @@ new SlidingRootNavBuilder(this)
   .addRootTransformation(customTransformation)
   .inject();
 ```
-`customTransformation` in the above example is a user-created class that implements `RootTransformation` interface. For an example, refer to the [default transformations](library/src/main/java/com/bhardwaj/navigation/transform). 
+`customTransformation` in the above example is a user-created class that implements `RootTransformation` interface. For an example, refer to the [default transformations](https://github.com/aditya-190/Nav-Drawer/tree/22630c6c24ae73ea2761d82d6e0f9c50ddb079fc/Navigation/src/main/java/com/bhardwaj/navigation/transform). 
 
 #### Menu behavior
 ```java
