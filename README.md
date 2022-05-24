@@ -1,5 +1,7 @@
 # Animated-Navigation-Drawer - Updated Version of SlidingRootNav
 
+Because the original library was deprecated, I converted all code to Kotlin and published to jitpack.io so that I can use them in my next projects.
+
 All the credit goes to Mr. Yaroslav Shevchuk
 
 The library is a DrawerLayout-like ViewGroup, where a "drawer" is hidden under the content view, which can be shifted to make the drawer visible. It doesn't provide you with a drawer builder.
